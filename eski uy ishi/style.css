@@ -1,0 +1,315 @@
+/* ===== Umumiy ===== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #2b2b2b;
+  line-height: 1.6;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.btn {
+  display: inline-block;
+  background: #1f4e79;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 12px 32px;
+  border-radius: 30px;
+}
+
+/* ===== Header ===== */
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1f4e79;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+  font-size: 12px;
+}
+
+/* ===== Hero ===== */
+.hero {
+  height: 500px;
+  background: #eceef0 url('img/hero.jpg') center / cover no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 120px;
+}
+
+.hero-card {
+  width: 380px;
+  padding: 36px 32px;
+  background: #dee8f4;
+}
+
+.hero-card small {
+  font-size: 11px;
+  font-style: italic;
+}
+
+.hero-card h1 {
+  font-size: 32px;
+  line-height: 1.2;
+  color: #1f4e79;
+  margin: 8px 0 14px;
+}
+
+.hero-card p {
+  font-size: 12px;
+  margin-bottom: 24px;
+}
+
+/* ===== Features ===== */
+.features {
+  background: #eef2fb;
+  padding: 26px 0;
+}
+
+.features .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.feature img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.feature h4 {
+  font-size: 14px;
+}
+
+.feature p {
+  font-size: 11px;
+  color: #6b6b6b;
+}
+
+/* ===== Bo'lim sarlavhalari ===== */
+.section {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.sub {
+  font-size: 12px;
+  color: #6b6b6b;
+  margin-bottom: 36px;
+}
+
+.alt {
+  background: #faf9f8;
+}
+
+/* ===== Inspiration ===== */
+.insp {
+  display: flex;
+  gap: 20px;
+}
+
+.insp div {
+  flex: 1;
+  height: 380px;
+}
+
+/* ===== Beautify ===== */
+.beautify {
+  background: #eef2fb;
+  padding: 60px 0;
+}
+
+.beautify .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.beautify .text {
+  max-width: 340px;
+}
+
+.beautify h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.beautify p {
+  font-size: 12px;
+  margin-bottom: 24px;
+}
+
+.beautify .photo {
+  width: 340px;
+  height: 440px;
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+.beautify .photo div {
+  height: 100%;
+}
+
+/* ===== Browse The Range ===== */
+.range {
+  display: flex;
+  gap: 10px;
+}
+
+.range figure {
+  flex: 1;
+}
+
+.range .img {
+  height: 260px;
+  margin-bottom: 12px;
+}
+
+.range figcaption {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* ===== How It Works ===== */
+.steps {
+  display: flex;
+  gap: 18px;
+}
+
+.step {
+  flex: 1;
+}
+
+.step .img {
+  margin-bottom: 14px;
+}
+
+.step .img img {
+  height: auto;
+}
+
+.step h4 {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.step p {
+  font-size: 11px;
+  color: #6b6b6b;
+}
+
+/* ===== Mailing ===== */
+.mailing {
+  background: #eef2fb;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.mailing h3 {
+  font-size: 17px;
+  margin-bottom: 8px;
+}
+
+.mailing p {
+  font-size: 12px;
+  color: #6b6b6b;
+  margin-bottom: 20px;
+}
+
+.mailing input {
+  width: 300px;
+  padding: 12px;
+  border: 1px solid #cfd6e2;
+  font-size: 12px;
+}
+
+.mailing button {
+  padding: 12px 28px;
+  background: #1f4e79;
+  color: #fff;
+  border: 0;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* ===== Footer ===== */
+footer {
+  background: #123a5c;
+  color: #fff;
+  padding: 36px 0;
+}
+
+footer .container {
+  display: flex;
+  gap: 40px;
+}
+
+footer .container > div {
+  flex: 1;
+}
+
+footer h5 {
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+footer p {
+  font-size: 11px;
+  color: #c5d3e0;
+  margin-bottom: 20px;
+}
+
+.insta {
+  display: flex;
+  gap: 10px;
+}
+
+.insta div {
+  flex: 1;
+  height: 100px;
+  border: 3px solid #fff;
+}
